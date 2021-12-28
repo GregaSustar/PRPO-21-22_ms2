@@ -5,6 +5,7 @@ public class Ocena {
     private Uporabnik uporabnik;
     private Integer ocena;
     private String komentar;
+    private String prevod;
 
     public Ocena(){}
 
@@ -36,5 +37,13 @@ public class Ocena {
 
     public void setKomentar(String komentar) {
         this.komentar = komentar;
+    }
+
+    public String getPrevod() {
+        return prevod;
+    }
+
+    public void setPrevod(String prevod) {
+        this.prevod = prevod;
     }
 }

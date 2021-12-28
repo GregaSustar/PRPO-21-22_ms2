@@ -6,3 +6,8 @@ kumuluzee:
   server:
     http:
       port: 8081
+integrations:
+  translate:
+    baseurl: "https://deep-translate1.p.rapidapi.com/language/translate/v2"
+    apihost: "deep-translate1.p.rapidapi.com"
+    apikey: "ff16bca5a2msh077f9d06bc61535p1efdcajsne7ef9d308100"
