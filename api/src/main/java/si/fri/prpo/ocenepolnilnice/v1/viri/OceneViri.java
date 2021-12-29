@@ -1,5 +1,6 @@
 package si.fri.prpo.ocenepolnilnice.v1.viri;
 
+import com.kumuluz.ee.cors.annotations.CrossOrigin;
 import si.fri.prpo.ocenepolnilnice.dtos.Ocena;
 import si.fri.prpo.ocenepolnilnice.zrna.UpravljanjeOcen;
 
@@ -14,6 +15,7 @@ import java.util.logging.Logger;
 @Path("/ocene")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
+@CrossOrigin(supportedMethods = "GET, POST, HEAD, DELETE, OPTIONS")
 @ApplicationScoped
 public class OceneViri {
 
