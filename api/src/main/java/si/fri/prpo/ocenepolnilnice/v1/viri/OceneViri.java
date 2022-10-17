@@ -12,11 +12,11 @@ import javax.ws.rs.core.Response;
 import java.util.List;
 import java.util.logging.Logger;
 
+@ApplicationScoped
 @Path("/ocene")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-@CrossOrigin(supportedMethods = "GET, POST, HEAD, DELETE, OPTIONS")
-@ApplicationScoped
+@CrossOrigin(supportedMethods =  "GET, POST, PUT, DELETE, HEAD, OPTIONS")
 public class OceneViri {
 
     private static final Logger log = Logger.getLogger(OceneViri.class.getName());
